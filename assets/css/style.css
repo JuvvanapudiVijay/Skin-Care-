@@ -1,0 +1,529 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: sowmya;
+    src: url(../fonts/Butler_Light.otf);
+}
+
+/*----Navbar----*/
+.nav-bg{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.186);
+    background-color: #ffffff;
+}       
+.nav-item{
+    font-size: 21px;
+    font-weight: 400;
+    font-family: sowmya;
+}  
+.nav-item a:hover{
+    color: #EDA6ED !important;
+    transform: translateY(-1px);
+} 
+ 
+.navbar-brand:hover{
+    transform: translateY(-2px);
+}         
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #C296E1 0%, #9f37bb  51%, #C296E1  100%);
+    margin: 6px;
+    padding: 15px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white !important; 
+    font-weight: 500;           
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  .modal-content{
+   width: 800px;
+  }
+ /*----Bannar----*/
+
+
+.bannar{
+    width: auto;
+    height: auto;
+    background-color: #eaaefb61;
+    margin-top: 84px;
+}
+.btn-grad1 {
+    background-image: linear-gradient(to right, #C296E1 0%, #9f37bb  51%, #C296E1  100%);
+    margin: 6px;
+    padding: 15px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white; 
+    font-weight: 500;           
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: inline;
+    text-decoration: none;
+  }
+
+  .btn-grad1:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.bannartext h2{
+font-family: sowmya;
+font-size: 36px;
+text-shadow:0px 0px 0px 10px black;
+}
+.bannartext p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.bannarimg{
+   max-width: 100%;
+   height: auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+ /*----services----*/
+ .card{
+    box-shadow: -3px 4px 14px 0px rgba(0, 0, 0, 0.3);
+    padding: 0px 0px 20px 0px;
+ }
+ .text-center{
+    color: #9f37bb;
+ }
+ .section{
+    background-color: #f5a9f529;
+    
+ }
+ .servicehome{
+   padding-bottom: 150px;
+ }
+ .card h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #C296E1;
+    font-family: sowmya;
+ }
+ .card p{
+font-size: 1rem;
+ }
+ .card a{
+    text-decoration: none;
+    color: #C296E1;
+    font-size: 1.1rem;
+ }
+ .card:hover{
+    transform: translateY(-2px);
+ }
+  /*----cntcs---*/
+  .contacts{
+    width: auto;
+    height: auto;
+    background-color: #3a2e1961;
+  }
+  .Contact{
+ 
+    background-color: white !important;
+    position: relative;
+    top: -90px;
+  }
+.awardtext{
+   font-size: 1.4rem;
+    color: #C296E1;
+    
+}
+ .sowmyacnt1 p{
+    font-size: 1.5rem;
+    font-family: sowmya;
+ }
+ .sowmyacnt1 h1{
+    font-size: 1.6rem;
+    color: #C296E1;
+    font-family: sowmya;
+
+ }
+ .cnt{
+   width: 50px;
+    height: 50px;
+    padding: 0px;
+    
+ }
+ .cnt1{
+    width: 50px;
+    height: 50px;
+}
+.awards h4{
+    font-size: 2.4rem;
+    color: #ffffff;
+    font-weight: 800;
+}
+.awards h5{
+    color: white;
+}
+/*----about----*/
+
+ .aboutimg img{
+   
+    max-width: 100%;
+   
+ }
+ .aboutme h1{
+    font-size: 3rem;
+    color: #C296E1;
+    font-family: sowmya;
+ }
+ .aboutme h2{
+    font-size: 1.6rem;
+    color: #C296E1; 
+    font-family: sowmya;
+ }
+ .aboutme h3{
+    font-size: 1.6rem;
+    color: #C296E1; 
+    font-family: sowmya;
+ }
+ .aboutme p{
+   color: rgb(29, 29, 29);
+    font-size:1.1rem ;
+ }
+ .aboutme a {
+    background-image: linear-gradient(to right, #C296E1 0%, #9f37bb  51%, #C296E1  100%);
+    margin: 6px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white; 
+    font-weight: 500;           
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display:inline;
+    text-decoration: none;
+    margin-left: 0px;
+ } 
+ .aboutme a:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+ }
+
+
+@media screen and (max-device-width: 600px) {
+    .Contact{
+        position: static;
+        
+     
+    }
+    .servicehome{
+      padding-bottom: 70px;
+    }
+    .modal-content{
+     display: none;
+     }
+     .mbimages{
+      display:block !important;
+   }
+   .mbimages1{
+      display: none !important;
+   }
+}
+
+/*----footer----*/
+
+.ftrrow{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: rgba(52, 52, 48, 0.035);
+    padding: 70px 0;
+	
+	display: block;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #C296E1;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #141313;
+	text-decoration: none;
+	font-weight: 300;
+	font-weight: 500;
+	color: #000000;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #0e0e0e;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255, 255, 255, 0.518)(.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #C296E1;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #121315;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+
+}
+.formimg{
+	background-image: url(../images/84768431.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img1{
+	width: 100%;
+	height: 50vh;
+	background-image: url(../images/cute-little-girl-drawing-with-paint-paintbrush-home.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.abbtxt{
+	font-size: 2.6rem;
+	font-family: vijay;
+	color: rgb(255, 255, 255);
+}
+
+
+
+
+/*----------the end--------*/
+
+
+
+
+
+
+
+
+
+
+/*---------services-------*/
+
+.servicestxt{
+   color: #C296E1;
+}
+.sectionprgraf{
+   font-size: 17px;
+   color: #6c6767;
+}
+.mbimages{
+   display:none;
+}
+
+
+
+/*---------about me-------*/
+.img1{
+   background-image: url(../images/bannar.jpg);
+   width: 100%;
+	height: 50vh;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.bannartxt1{
+   font-size: 2.6rem;
+	font-family: vijay;
+	color: rgb(255, 255, 255);
+}
+.bannarp{
+   font-size: 1.2rem;
+	font-family: vijay;
+	color: rgb(255, 255, 255);
+}
+
+.aboutpagetxt h1{
+   color: #C296E1;
+   font-size: 2rem;
+   font-weight: 700;
+   font-family: sowmya;
+}
+.aboutpagetxt h2{
+   color: #000000;
+   font-size: 1.4rem;
+   font-weight: 700;
+   font-family: sowmya;
+}
+.aboutpagetxt h3{
+   color: #000000;
+   font-size: 1.4rem;
+   font-weight: 700;
+   font-family: sowmya;
+}
+.aboutpagetxt p{
+   color: #3a3737;
+   font-size: 16px;
+   
+   
+}
+.aboutpageimg{
+   max-width: 100%;
+   height: auto;
+   background-repeat: no-repeat;background-size: cover;
+}
+/*--------contact------*/
+.contact-page{
+   color: #C296E1;
+}
+.contact-paragraph{
+  text-align: center;
+}
+
+.contact-short-info{
+   margin-top: 15px;
+   
+   padding: 10px;
+}
+
+
+.contact-short-info a{
+   text-decoration: none;
+   color: black;
+}
+.contact-side1 h4{
+   font-size: 2rem;
+   color: #C296E1;
+}
+.contact-side1 b{
+   color: #C296E1;
+   font-size: 1.3rem;
+}
+.contact-lists span{
+   font-size: 1.2rem;
+}
+.social-icon {
+   margin-left: -35px;
+
+ }
+ 
+ .social-icon ul li {
+   display: inline-block;
+   margin-right: 15px;
+ }
+ 
+ .social-icon ul li a {
+   display: block;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   border: 1px solid #dedede;
+   text-align: center;
+ }
+ 
+ .social-icon ul li a:hover {
+   background: #e9ae60;
+   color: #fff;
+   border: 1px solid #fbcb8c;
+ }
+ 
+ .social-icon ul li a:hover i {
+   color: #fff;
+ }
+ 
+ .social-icon ul li a i {
+   color: #55606a;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 50px;
+   margin: 0;
+ }
+ .btn-transparent {
+   border: none;
+   padding: 15px 0;
+   width: 100%;
+   margin: 0;
+   background: #103054 !important;
+   color: #fff !important;
+   border-radius: 5px;
+ }
+
+
+/*--------modal------*/
+
+
+
+.modal-image{
+   background-image: url(../images/portrait-beautiful-young-asian-woman-thai-nurse-smile-happy-ready-work-patient.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.form-floating h4{
+   color: #9f37bb;
+   font-size: 20px;
+}
+
+.icon img{
+   width: 50px;height: 50px;
+   position: fixed;
+   right: 0px;
+   top: 280px;
+}
+.icon1 img{
+   width: 50px;height: 50px;
+   position: fixed;
+   right: 0px;
+   top: 350px;
+}
